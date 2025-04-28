@@ -26,6 +26,7 @@ body {
     margin: 0;
 }
 #header {
+    width:var(--mob-width) ;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0;
@@ -98,6 +99,14 @@ body {
         width: 1000px;
         display: flex;
         align-items: start;
+    }
+    #header {
+        padding: 20px 13px;
+        width: 100%;
+    }
+    #header img {
+        width: 95px;
+        height: 95px;
     }
     #nav {
         width: 200px;
