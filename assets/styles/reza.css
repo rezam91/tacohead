@@ -2,6 +2,7 @@
     --mob-width:360px;
 
     --nav-bg:#FFC857;
+    --nav-nav-bh:#FFFFFF4D;
     --nav-br:#0000001A;
 }
 * {
@@ -52,7 +53,11 @@ body {
     border: 1px solid red;
 }
 #nav ul {
-    display: ;
+    display:flex ;
     list-style: none;
     padding-right: 0;
+}
+#nav ul li figure {
+    background-color: var(--nav-nav-bh);
+    border-radius: 6px;
 }
