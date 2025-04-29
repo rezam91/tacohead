@@ -87,10 +87,10 @@ body {
 #nav nav a figure figcaption {
     margin-top: 6px;
 }
-#menu {
+/* #menu {
     height: 200vh;
     background-color: green;
-}
+} */
 @media (width>=1000px) {
     #menu {
         width: 800px;
