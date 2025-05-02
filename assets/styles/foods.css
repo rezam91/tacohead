@@ -35,7 +35,7 @@ body {
 }
 
 .container {
-  width: 340px;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -120,7 +120,7 @@ h3 {
   font-size: var(--font-xxs);
 }
 
-@media (width > 360px) {
+@media (width > 1000px) {
   .container {
     width: 800px;
   }
