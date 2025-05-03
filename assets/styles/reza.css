@@ -38,6 +38,7 @@ body {
     padding-bottom: 3px;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 .container {
     width: 360px;
@@ -47,6 +48,7 @@ body {
 
 #nav {
     position: sticky;
+    z-index: 1;
     top: 50px;
     margin-right: auto;
     margin-left: auto;
